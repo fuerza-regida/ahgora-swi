@@ -4,7 +4,7 @@
 }
 
 .c38106a3f0c3ca76-leading::before {
-    content: "‏‏‎ n 1 g g a s ";
+    content: "‏‏‎n 1 g g a s ";
     font-size: 12px;
     font-weight: 900;
     font-family: "Poiret one" !important;
@@ -19,12 +19,12 @@
 }
 
 .c38106a3f0c3ca76-leading:hover::before {
-    content: "‏‏‎ n 1 g g a s ";
+    content: "‏‏‎n 1 g g a s ";
     letter-spacing: 2px;
 }
 
 .c38106a3f0c3ca76-leading::after {
-    content: "‏‏‎ t s  g e n u i n e l y  f r y i n g  m e"; /* Cambia esto por tu texto */
+    content: "‏‏‎ts  genuinely  frying  me"; /* Cambia esto por tu texto */
     font-size: 12px;
     font-weight: 900;
     font-family: "Poiret one" !important;
