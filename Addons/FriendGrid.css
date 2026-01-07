@@ -1,0 +1,681 @@
+:root {
+    --FA-version: "v1.0.10";
+
+    --FG-row: 1fr 1fr 1fr;
+
+    --FG-search-radius: 8px;
+
+    --FG-cards-radius: 8px;
+    --FG-cards-height: 180px;
+    --FG-cards-banner-background: var(--brand-experiment);
+    --FG-cards-margin-bottom: 26px;
+    --FG-cards-banner-height: 20px;
+    --FG-cards-border-width: 1px;
+
+    --FG-avatar-margin-top: 46px;
+    --FG-avatar-margin-left: 20px;
+    --FG-text-margin-left: 20px;
+
+    --FG-cards-banner-opacity-normal: 1.0;
+    --FG-cards-banner-opacity-hover: 1.0;
+    --FG-cards-banner-opacity-active: 1.0;
+
+    --FG-cards-avatar-opacity-normal: 1.0;
+    --FG-cards-avatar-opacity-hover: 1.0;
+    --FG-cards-avatar-opacity-active: 1.0;
+
+    --FG-cards-username-opacity-normal: 1.0;
+    --FG-cards-username-opacity-hover: 1.0;
+    --FG-cards-username-opacity-active: 1.0;
+
+    --FG-cards-discriminator-opacity-normal: 1.0;
+    --FG-cards-discriminator-opacity-hover: 1.0;
+    --FG-cards-discriminator-opacity-active: 1.0;
+
+    --FG-cards-status-opacity-normal: 1.0;
+    --FG-cards-status-opacity-hover: 1.0;
+    --FG-cards-status-opacity-active: 1.0;
+
+    --FG-cards-button-opacity-normal: 0.0;
+    --FG-cards-button-opacity-hover: 1.0;
+    --FG-cards-button-opacity-active: 0.0;
+
+    --FG-mutal-guilds-normal: 0.0;
+    --FG-mutal-guilds-hover: 1.0;
+    --FG-mutal-guilds-active: 1.0;
+
+    --FG-avatar-shape: 50%;
+
+    --FG-transition: all 0.4s ease;
+
+    --user-accent-color: var(--FG-cards-banner-background);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Dark                     ║ Here you can make settings for the Dark Theme.                                          ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.theme-dark {
+    --FG-search-background: var(--background-tertiary);
+
+    --FG-cards-background-normal: var(--background-secondary);
+    --FG-cards-background-hover: var(--activity-card-background);
+
+    --FG-cards-background-active: var(--activity-card-background);
+
+    --FG-cards-border-color-normal: var(--background-modifier-accent);
+    --FG-cards-border-color-hover: var(--background-modifier-accent);
+
+    --FG-cards-username-normal: var(--header-primary);
+    --FG-cards-username-hover: var(--header-primary);
+    --FG-cards-discriminator-normal: var(--header-secondary);
+    --FG-cards-discriminator-hover: var(--header-secondary);
+    --FG-cards-status-normal: var(--header-secondary);
+    --FG-cards-status-hover: var(--header-secondary);
+
+    --FG-cards-button-icon-normal: var(--interactive-active);
+    --FG-cards-button-icon-hover: var(--activity-card-background);
+    --FG-cards-button-background-normal: rgba(0, 0, 0, 0.3);
+    --FG-cards-button-background-hover: rgba(0, 0, 0, 0.6);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Light                    ║ Here you can make settings for the Light Theme.                                         ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.theme-light {
+    --FG-search-background: var(--background-tertiary);
+
+    --FG-cards-background-normal: var(--background-secondary);
+    --FG-cards-background-hover: var(--activity-card-background);
+
+    --FG-cards-background-active: var(--activity-card-background);
+
+    --FG-cards-border-color-normal: var(--background-modifier-accent);
+    --FG-cards-border-color-hover: var(--background-modifier-accent);
+
+    --FG-cards-username-normal: var(--header-primary);
+    --FG-cards-username-hover: var(--header-primary);
+    --FG-cards-discriminator-normal: var(--header-secondary);
+    --FG-cards-discriminator-hover: var(--header-secondary);
+    --FG-cards-status-normal: var(--header-secondary);
+    --FG-cards-status-hover: var(--header-secondary);
+
+    --FG-cards-button-icon-normal: var(--interactive-active);
+    --FG-cards-button-icon-hover: var(--activity-card-background);
+    --FG-cards-button-background-normal: rgba(255, 255, 255, 0.3);
+    --FG-cards-button-background-hover: rgba(255, 255, 255, 0.6);
+}
+
+
+._133bf5eea8e33a34-peopleColumn ._1472a8142d02ea23-title {
+    position: relative;
+    top: -66px;
+    left: 0px;
+    font-weight: 700;
+    font-family: var(--font-display);
+    color: var(--header-primary);
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin-left: 0px
+}
+
+._133bf5eea8e33a34-peopleColumn ._5ec2fb8b5de26b21-searchBar {
+    position: relative;
+    background: var(--FG-search-background);
+    z-index: 9;
+    margin: 0px;
+    width: 100%;
+    border-radius: var(--FG-search-radius);
+    padding: 5px;
+}
+
+._133bf5eea8e33a34-peopleColumn ._5ec2fb8b5de26b21-peopleList > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 12px;
+    row-gap: 12px
+}
+
+._133bf5eea8e33a34-peopleColumn ._5ec2fb8b5de26b21-peopleList .content-2a4AW9 [style="height: 0px;"] {
+    display: none
+}
+
+._133bf5eea8e33a34-peopleColumn {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px
+}
+
+._133bf5eea8e33a34-peopleColumn .scrollerBase-_bVAAt {
+    overflow: visible !important
+}
+
+._133bf5eea8e33a34-peopleColumn {
+    display: block;
+    overflow: hidden scroll
+}
+
+._133bf5eea8e33a34-peopleColumn::-webkit-scrollbar {
+    width: 16px;
+    height: 16px
+}
+
+._133bf5eea8e33a34-peopleColumn::-webkit-scrollbar-corner {
+    background-color: transparent
+}
+
+._133bf5eea8e33a34-peopleColumn::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-auto-thumb);
+    min-height: 40px
+}
+
+._133bf5eea8e33a34-peopleColumn::-webkit-scrollbar-thumb,
+._133bf5eea8e33a34-peopleColumn::-webkit-scrollbar-track {
+    border: 4px solid transparent;
+    background-clip: padding-box;
+    border-radius: var(--FG-cards-radius)
+}
+
+._133bf5eea8e33a34-peopleColumn::-webkit-scrollbar-thumb,
+._133bf5eea8e33a34-peopleColumn::-webkit-scrollbar-track {
+    border: 4px solid transparent;
+    background-clip: padding-box;
+    border-radius: var(--FG-cards-radius)
+}
+
+._133bf5eea8e33a34-peopleColumn::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-auto-track)
+}
+
+.info-1sUqUG .size12-oc4dx4:last-child::after {
+    content: "\a" "Friends-Grid " var(--FA-version) !important;
+    text-transform: none;
+    white-space: pre;
+    -webkit-user-select: all;
+    -moz-user-select: all;
+    user-select: all
+}
+
+@media screen and (min-width: 0px)and (max-width: 6000px) {
+    ._133bf5eea8e33a34-peopleColumn ._5ec2fb8b5de26b21-peopleList > div {
+        height: auto !important;
+        margin-right: 60vw
+    }
+}
+
+@media screen and (min-width: 0px)and (max-width: 5000px) {
+    ._133bf5eea8e33a34-peopleColumn ._5ec2fb8b5de26b21-peopleList > div {
+        height: auto !important;
+        margin-right: 50vw
+    }
+}
+
+@media screen and (min-width: 0px)and (max-width: 4000px) {
+    ._133bf5eea8e33a34-peopleColumn ._5ec2fb8b5de26b21-peopleList > div {
+        height: auto !important;
+        margin-right: 40vw
+    }
+}
+
+@media screen and (min-width: 0px)and (max-width: 3000px) {
+    ._133bf5eea8e33a34-peopleColumn ._5ec2fb8b5de26b21-peopleList > div {
+        height: auto !important;
+        margin-right: 30vw
+    }
+}
+
+@media screen and (min-width: 0px)and (max-width: 2600px) {
+    ._133bf5eea8e33a34-peopleColumn ._5ec2fb8b5de26b21-peopleList > div {
+        height: auto !important;
+        margin-right: 0vw
+    }
+}
+
+@media screen and (min-width: 0px)and (max-width: 2000px) {
+    ._133bf5eea8e33a34-peopleColumn ._5ec2fb8b5de26b21-peopleList > div {
+        grid-template-columns: var(--FG-row);
+        height: auto !important
+    }
+}
+
+@media screen and (min-width: 0px)and (max-width: 1600px) {
+    ._133bf5eea8e33a34-peopleColumn ._5ec2fb8b5de26b21-peopleList > div {
+        grid-template-columns: 1fr 1fr;
+        height: auto !important
+    }
+}
+
+@media screen and (min-width: 0px)and (max-width: 1000px) {
+    ._133bf5eea8e33a34-peopleColumn ._5ec2fb8b5de26b21-peopleList > div {
+        grid-template-columns: 1fr;
+        height: auto !important
+    }
+}
+
+._133bf5eea8e33a34-peopleColumn ._0a06ed6ea040aa1b-avatar.wrapper-1VLyxH {
+    transform: scale(1.8);
+    margin-left: calc(16px + var(--FG-avatar-margin-left));
+    margin-top: calc(var(--FG-avatar-margin-top) + var(--FG-cards-banner-height))
+}
+
+._133bf5eea8e33a34-peopleColumn ._0a06ed6ea040aa1b-avatar::before {
+    content: "";
+    position: fixed;
+    width: 116%;
+    height: 116%;
+    left: -8%;
+    top: -8%
+}
+
+._133bf5eea8e33a34-peopleColumn ._0a06ed6ea040aa1b-avatar::before {
+    background: var(--FG-cards-background-normal);
+    border-radius: var(--rs-avatar-shape, var(--FG-avatar-shape));
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn .cc61794aab086a2e-peopleListItem:hover ._0a06ed6ea040aa1b-avatar::before {
+    background: var(--FG-cards-background-hover);
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn .cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active ._0a06ed6ea040aa1b-avatar::before {
+    opacity: var(--FG-cards-avatar-opacity-active) !important;
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn ._0a06ed6ea040aa1b-avatar.wrapper-1VLyxH {
+    opacity: var(--FG-cards-avatar-opacity-normal);
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn .cc61794aab086a2e-peopleListItem:hover ._0a06ed6ea040aa1b-avatar.wrapper-1VLyxH {
+    opacity: var(--FG-cards-avatar-opacity-hover);
+    transition: var(--FG-transition)
+}
+
+.cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active ._0a06ed6ea040aa1b-avatar.wrapper-1VLyxH {
+    opacity: var(--FG-cards-avatar-opacity-active) !important;
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn ._0a06ed6ea040aa1b-userInfo::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: calc(60px + var(--FG-cards-banner-height));
+    min-height: 60px;
+    background-image: var(--user-banner);
+    background-position: center;
+    background-color: var(--user-accent-color);
+    background-size: cover
+}
+
+._133bf5eea8e33a34-peopleColumn ._0a06ed6ea040aa1b-userInfo::before {
+    opacity: var(--FG-cards-banner-opacity-normal);
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn .cc61794aab086a2e-peopleListItem:hover ._0a06ed6ea040aa1b-userInfo::before {
+    opacity: var(--FG-cards-banner-opacity-hover);
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn .cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active ._0a06ed6ea040aa1b-userInfo::before {
+    opacity: var(--FG-cards-banner-opacity-active);
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn#online-tab .fc004c9c041aaefa-actions {
+    position: relative;
+    transform: scale(0.72);
+    margin-left: 2px !important;
+    bottom: 95%;
+    margin-right: -2px;
+    height: 0px;
+    min-height: 0px;
+    max-height: 0px;
+    margin-top: unset
+}
+
+._133bf5eea8e33a34-peopleColumn#all-tab .fc004c9c041aaefa-actions {
+    position: relative;
+    transform: scale(0.72);
+    margin-left: 2px !important;
+    bottom: 95%;
+    margin-right: -2px;
+    height: 0px;
+    min-height: 0px;
+    max-height: 0px;
+    margin-top: unset
+}
+
+._133bf5eea8e33a34-peopleColumn#pending-tab .e1ecd30a628c26f3-actions {
+    position: absolute;
+    transform: scale(0.72);
+    margin-left: 2px !important;
+    bottom: unset;
+    margin-right: -2px;
+    height: 0px;
+    min-height: 0px;
+    max-height: 0px;
+    margin-top: 10px
+}
+
+._133bf5eea8e33a34-peopleColumn#blocked-tab .f8fa068db52f043f-actionDeny {
+    position: absolute;
+    transform: scale(1);
+    margin-left: 2px !important;
+    bottom: unset;
+    margin-right: -2px;
+    height: 0px;
+    min-height: 0px;
+    max-height: 0px;
+    margin-top: 10px
+}
+
+._133bf5eea8e33a34-peopleColumn#favorized_friends-tab .fc004c9c041aaefa-actions {
+    position: relative;
+    transform: scale(0.72);
+    margin-left: 2px !important;
+    bottom: 95%;
+    margin-right: -2px;
+    height: 0px;
+    min-height: 0px;
+    max-height: 0px;
+    margin-top: unset
+}
+
+._133bf5eea8e33a34-peopleColumn#hidden_friends-tab .fc004c9c041aaefa-actions {
+    position: relative;
+    transform: scale(0.72);
+    margin-left: 2px !important;
+    bottom: 95%;
+    margin-right: -2px;
+    height: 0px;
+    min-height: 0px;
+    max-height: 0px;
+    margin-top: unset
+}
+
+._133bf5eea8e33a34-peopleColumn#online-tab .f8fa068db52f043f-actionButton {
+    background: var(--FG-cards-button-background-normal);
+    color: var(--FG-cards-button-icon-normal);
+    opacity: var(--FG-cards-button-opacity-normal);
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn#all-tab .f8fa068db52f043f-actionButton {
+    background: var(--FG-cards-button-background-normal);
+    color: var(--FG-cards-button-icon-normal);
+    opacity: var(--FG-cards-button-opacity-normal);
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn#pending-tab .f8fa068db52f043f-actionButton {
+    background: var(--FG-cards-button-background-normal);
+    color: var(--FG-cards-button-icon-normal);
+    opacity: var(--FG-cards-button-opacity-normal);
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn#blocked-tab .f8fa068db52f043f-actionButton {
+    background: var(--FG-cards-button-background-normal);
+    color: var(--FG-cards-button-icon-normal);
+    opacity: var(--FG-cards-button-opacity-normal);
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn#favorized_friends-tab .f8fa068db52f043f-actionButton {
+    background: var(--FG-cards-button-background-normal);
+    color: var(--FG-cards-button-icon-normal);
+    opacity: var(--FG-cards-button-opacity-normal);
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn#hidden_friends-tab .f8fa068db52f043f-actionButton {
+    background: var(--FG-cards-button-background-normal);
+    color: var(--FG-cards-button-icon-normal);
+    opacity: var(--FG-cards-button-opacity-normal);
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn#online-tab .cc61794aab086a2e-peopleListItem:hover .f8fa068db52f043f-actionButton {
+    background: var(--FG-cards-button-background-hover);
+    color: var(--FG-cards-button-icon-normal);
+    opacity: var(--FG-cards-button-opacity-hover);
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn#all-tab .cc61794aab086a2e-peopleListItem:hover .f8fa068db52f043f-actionButton {
+    background: var(--FG-cards-button-background-hover);
+    color: var(--FG-cards-button-icon-normal);
+    opacity: var(--FG-cards-button-opacity-hover);
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn#pending-tab .cc61794aab086a2e-peopleListItem:hover .f8fa068db52f043f-actionButton {
+    background: var(--FG-cards-button-background-hover);
+    color: var(--FG-cards-button-icon-normal);
+    opacity: var(--FG-cards-button-opacity-hover);
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn#blocked-tab .cc61794aab086a2e-peopleListItem:hover .f8fa068db52f043f-actionButton {
+    background: var(--FG-cards-button-background-hover);
+    color: var(--FG-cards-button-icon-normal);
+    opacity: var(--FG-cards-button-opacity-hover);
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn#favorized_friends-tab .cc61794aab086a2e-peopleListItem:hover .f8fa068db52f043f-actionButton {
+    background: var(--FG-cards-button-background-hover);
+    color: var(--FG-cards-button-icon-normal);
+    opacity: var(--FG-cards-button-opacity-hover);
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn#hidden_friends-tab .cc61794aab086a2e-peopleListItem:hover .f8fa068db52f043f-actionButton {
+    background: var(--FG-cards-button-background-hover);
+    color: var(--FG-cards-button-icon-normal);
+    opacity: var(--FG-cards-button-opacity-hover);
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn#online-tab .cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active .f8fa068db52f043f-actionButton {
+    opacity: var(--FG-cards-button-opacity-active) !important;
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn#all-tab .cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active .f8fa068db52f043f-actionButton {
+    opacity: var(--FG-cards-button-opacity-active) !important;
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn#pending-tab .cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active .f8fa068db52f043f-actionButton {
+    opacity: var(--FG-cards-button-opacity-active) !important;
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn#blocked-tab .cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active .f8fa068db52f043f-actionButton {
+    opacity: var(--FG-cards-button-opacity-active) !important;
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn#favorized_friends-tab .cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active .f8fa068db52f043f-actionButton {
+    opacity: var(--FG-cards-button-opacity-active) !important;
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn#hidden_friends-tab .cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active .f8fa068db52f043f-actionButton {
+    opacity: var(--FG-cards-button-opacity-active) !important;
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn#online-tab .f8fa068db52f043f-actionButton:hover {
+    background: var(--FG-cards-button-icon-hover) !important;
+    color: var(--FG-cards-button-icon-hover)
+}
+
+._133bf5eea8e33a34-peopleColumn#all-tab .f8fa068db52f043f-actionButton:hover {
+    background: var(--FG-cards-button-icon-hover) !important;
+    color: var(--FG-cards-button-icon-hover)
+}
+
+._133bf5eea8e33a34-peopleColumn#pending-tab .f8fa068db52f043f-actionButton:hover {
+    background: var(--FG-cards-button-icon-hover) !important;
+    color: var(--FG-cards-button-icon-hover)
+}
+
+._133bf5eea8e33a34-peopleColumn#blocked-tab .f8fa068db52f043f-actionButton:hover {
+    background: var(--FG-cards-button-icon-hover) !important;
+    color: var(--FG-cards-button-icon-hover)
+}
+
+._133bf5eea8e33a34-peopleColumn#favorized_friends-tab .f8fa068db52f043f-actionButton:hover {
+    background: var(--FG-cards-button-icon-hover) !important;
+    color: var(--FG-cards-button-icon-hover)
+}
+
+._133bf5eea8e33a34-peopleColumn#hidden_friends-tab .f8fa068db52f043f-actionButton:hover {
+    background: var(--FG-cards-button-icon-hover) !important;
+    color: var(--FG-cards-button-icon-hover)
+}
+
+.f8fa068db52f043f-actionButton {
+    margin-left: 9px
+}
+
+._133bf5eea8e33a34-peopleColumn#blocked-tab .f8fa068db52f043f-actionDeny {
+    height: 26px !important;
+    width: 26px !important;
+    min-height: unset !important;
+    max-height: unset !important;
+    margin-right: 10px
+}
+
+._133bf5eea8e33a34-peopleColumn#blocked-tab .f8fa068db52f043f-actionDeny .f8fa068db52f043f-icon {
+    height: 14px !important;
+    width: 14px !important
+}
+
+._133bf5eea8e33a34-peopleColumn .e1ecd30a628c26f3-listItemContents,
+._133bf5eea8e33a34-peopleColumn .listItemContents__61863,
+._133bf5eea8e33a34-peopleColumn .fc004c9c041aaefa-listItemContents {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
+
+._133bf5eea8e33a34-peopleColumn .cc61794aab086a2e-peopleListItem {
+    background: var(--FG-cards-background-normal);
+    border: var(--FG-cards-border-width) solid var(--FG-cards-border-color-normal);
+    border-radius: var(--FG-cards-radius) !important;
+    height: 100% !important;
+    margin: 0px;
+    padding: 0px;
+    min-height: calc(var(--FG-cards-height) + var(--FG-cards-banner-height)) !important
+}
+
+._133bf5eea8e33a34-peopleColumn .cc61794aab086a2e-peopleListItem:hover {
+    background: var(--FG-cards-background-hover);
+    border: var(--FG-cards-border-width) solid var(--FG-cards-border-color-hover);
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn .cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active {
+    background: var(--FG-cards-background-active) !important;
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn ._0a06ed6ea040aa1b-userInfo {
+    transform: scale(1);
+    width: 100%;
+    height: 100%;
+    margin-bottom: var(--FG-cards-margin-bottom)
+}
+
+._133bf5eea8e33a34-peopleColumn#pending-tab ._0a06ed6ea040aa1b-userInfo {
+    flex: auto 0 0
+}
+
+._133bf5eea8e33a34-peopleColumn ._0a06ed6ea040aa1b-text {
+    position: absolute;
+    width: 80% !important;
+    left: 0;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 600
+}
+
+._133bf5eea8e33a34-peopleColumn#pending-tab ._0a06ed6ea040aa1b-text {
+    margin-bottom: var(--FG-cards-margin-bottom);
+    position: absolute;
+    bottom: 0%
+}
+
+._133bf5eea8e33a34-peopleColumn ._0a06ed6ea040aa1b-text {
+    margin-left: var(--FG-text-margin-left)
+}
+
+._133bf5eea8e33a34-peopleColumn ._0a06ed6ea040aa1b-text {
+    margin-top: var(--FG-text-margin-top)
+}
+
+._133bf5eea8e33a34-peopleColumn ._0a06ed6ea040aa1b-username {
+    color: var(--FG-cards-username-normal);
+    opacity: var(--FG-cards-username-opacity-normal);
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn .cc61794aab086a2e-peopleListItem:hover ._0a06ed6ea040aa1b-username {
+    color: var(--FG-cards-username-hover);
+    opacity: var(--FG-cards-username-opacity-hover);
+    transition: var(--FG-transition)
+}
+
+.cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active ._0a06ed6ea040aa1b-username {
+    opacity: var(--FG-cards-username-opacity-active) !important;
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn ._0a06ed6ea040aa1b-discriminator {
+    color: var(--FG-cards-discriminator-normal);
+    opacity: var(--FG-cards-discriminator-opacity-normal);
+    visibility: visible;
+    margin-left: 2px;
+    font-size: 20px;
+    line-height: 22px;
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn .cc61794aab086a2e-peopleListItem:hover ._0a06ed6ea040aa1b-discriminator {
+    color: var(--FG-cards-discriminator-hover);
+    opacity: var(--FG-cards-discriminator-opacity-hover);
+    transition: var(--FG-transition)
+}
+
+.cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active ._0a06ed6ea040aa1b-discriminator {
+    opacity: var(--FG-cards-discriminator-opacity-active) !important;
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn ._0a06ed6ea040aa1b-subtext {
+    color: var(--FG-cards-status-normal);
+    opacity: var(--FG-cards-status-opacity-normal);
+    transition: var(--FG-transition)
+}
+
+._133bf5eea8e33a34-peopleColumn .cc61794aab086a2e-peopleListItem:hover ._0a06ed6ea040aa1b-subtext {
+    color: var(--FG-cards-status-hover);
+    opacity: var(--FG-cards-status-opacity-hover);
+    transition: var(--FG-transition)
+}
+
+.cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active ._0a06ed6ea040aa1b-subtext {
+    opacity: var(--FG-cards-status-opacity-active) !important;
+    transition: var(--FG-transition)
+}

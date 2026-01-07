@@ -1,0 +1,90 @@
+/* Header with channel name, search bar, and other icons */
+
+/* Minified search bar */
+:root {
+    --transitionspeed: 0.25s;
+}
+
+.visual-refresh ._974928fe84ca9647-searchBar {
+    border: none !important;
+}
+
+._974928fe84ca9647-search:not(._974928fe84ca9647-open) ._974928fe84ca9647-searchBar {
+    width: 30px;
+    transition: var(--transitionspeed);
+    background-color: transparent;
+}
+
+._974928fe84ca9647-search:not(._974928fe84ca9647-open):hover ._974928fe84ca9647-searchBar {
+    width: 240px;
+    background-color: var(--background-tertiary);
+}
+
+._974928fe84ca9647-search:not(._974928fe84ca9647-open) .iconContainer_fea832 {
+    transform: scale(1.1);
+    transition: var(--transitionspeed);
+}
+
+._974928fe84ca9647-search:not(._974928fe84ca9647-open):hover .iconContainer_fea832 {
+    transform: scale(1);
+}
+
+._974928fe84ca9647-search:not(._974928fe84ca9647-open) .icon_fea832 {
+    color: var(--text-normal);
+}
+
+._974928fe84ca9647-search:not(._974928fe84ca9647-open):hover .icon_fea832 {
+    color: var(--text-muted);
+}
+
+._9293f6b2fc12398a-container._9293f6b2fc12398a-themed ._496769951eb140fe-search {
+    order: -1 !important;
+}
+
+/*threads background fix*/
+.d9c8822889d1d4a1-container {
+    backdrop-filter: blur(15px) !important;
+}
+
+html.theme-dark .d9c8822889d1d4a1-container {
+    background: #181a1da6 !important;
+}
+
+html.theme-light .d9c8822889d1d4a1-container {
+    background: rgb(223, 223, 223);
+}
+
+/* threads item hover */
+._6764bd76e0340219-container:hover {
+    background-color: #181a1d99;
+}
+
+/*pins / inbox background fix*/
+.e8b59c4b335dd2fc-messagesPopoutWrap,
+._957962c2bd49881b-recentMentionsPopout,
+._084343c4f11eaaab-drawerSizingWrapper {
+    backdrop-filter: blur(15px) !important;
+}
+
+html.theme-dark .e8b59c4b335dd2fc-messagesPopoutWrap,
+html.theme-dark ._957962c2bd49881b-recentMentionsPopout,
+html.theme-dark ._084343c4f11eaaab-drawerSizingWrapper {
+    background: #181a1da6 !important;
+}
+
+html.theme-light .e8b59c4b335dd2fc-messagesPopoutWrap,
+html.theme-light ._957962c2bd49881b-recentMentionsPopout,
+html.theme-light ._084343c4f11eaaab-drawerSizingWrapper {
+    background: rgb(223, 223, 223) !important;
+}
+
+/* Inbox alignment fix */
+._957962c2bd49881b-container {
+    padding-left: 16px;
+}
+
+/* Inbox channel item background */
+._35a7ecf3aba351b2-channelHeader {
+    background-color: rgb(51, 49, 53) !important;
+    border-radius: 8px;
+}

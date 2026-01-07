@@ -1,0 +1,541 @@
+#app-mount ._960e4207cea8323e-baseLayer {
+    opacity: 1 !important;
+    transform: unset !important;
+    will-change: unset !important;
+}
+
+#app-mount .stop-animations * {
+    transition-property: inherit !important;
+    animation: inherit !important;
+}
+
+#app-mount ._960e4207cea8323e-layer.stop-animations:first-child::after {
+    content: "" !important;
+    position: fixed !important;
+    background: rgb(0, 0, 0) !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    opacity: 0.85 !important;
+    z-index: 999 !important;
+    pointer-events: none !important;
+}
+
+.theme-light #app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    background: var(--themelightsettingsmodalbackground) !important;
+    border-radius: 5px !important;
+    box-shadow: var(--elevation-high) !important;
+    width: var(--settingsmodalwidth) !important;
+    height: var(--settingsmodalheight) !important;
+    margin: auto !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    contain: unset !important;
+    z-index: 1000 !important;
+}
+
+.theme-dark #app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    background: var(--themedarksettingsmodalbackground) !important;
+    border-radius: 5px !important;
+    box-shadow: var(--elevation-high) !important;
+    width: var(--settingsmodalwidth) !important;
+    height: var(--settingsmodalheight) !important;
+    margin: auto !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    contain: unset !important;
+    z-index: 1000 !important;
+}
+
+#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer > div,
+#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer ._23e6b439306f125a-standardSidebarView {
+    position: static !important;
+    border-radius: unset !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: unset !important;
+    padding: unset !important;
+    overflow: hidden !important;
+}
+
+#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer ._23e6b439306f125a-sidebar {
+    width: 218px !important;
+    padding: 20px 6px 20px 20px !important;
+}
+
+#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer ._23e6b439306f125a-contentColumnDefault {
+    padding: 20px 40px !important;
+}
+
+#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer .aa8da23faa27393c-side {
+    height: var(--settingsmodalheight) !important;
+}
+
+#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer .aa8da23faa27393c-header {
+    max-width: calc(var(--settingsmodalwidth) - 256px) !important;;
+}
+
+/* the below one BD specific? Vencord don't seems to have it*/
+#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer ._23e6b439306f125a-standardSidebarView .editor {
+    height: calc(var(--settingsmodalheight) - 120px) !important;
+}
+
+#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer ._23e6b439306f125a-toolsContainer,
+#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer ._23e6b439306f125a-toolsContainer ._23e6b439306f125a-tools,
+#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer ._23e6b439306f125a-toolsContainer .c2b141c0f80863fb-container,
+#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer ._23e6b439306f125a-toolsContainer .c2b141c0f80863fb-closeButton {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    width: 100% !important;
+    max-width: unset !important;
+    height: 100% !important;
+    max-height: unset !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    opacity: 0 !important;
+    cursor: default !important;
+}
+
+#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer ._23e6b439306f125a-toolsContainer {
+    position: fixed !important;
+    top: 22px !important;
+    z-index: -1 !important;
+}
+
+#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer ._9293f6b2fc12398a-toolbar {
+    display: none !important;
+}
+
+#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer .aa8da23faa27393c-header {
+    max-width: calc(var(--settingsmodalwidth) - 730px) !important;
+}
+
+#app-mount ._5c9fcec194debbe7-root {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    background: var(--settingsmodalbackground) !important;
+    border-radius: 5px !important;
+    box-shadow: var(--elevation-high) !important;
+    width: var(--settingsmodalwidth) !important;
+    height: var(--settingsmodalheight) !important;
+    margin: auto !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    contain: unset !important;
+    z-index: 1000 !important;
+}
+
+#app-mount ._5c9fcec194debbe7-root._5c9fcec194debbe7-enterDone {
+    transform: unset !important;
+}
+
+#app-mount .perksModal-CLcR1c {
+    position: static !important;
+    border-radius: unset !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: unset !important;
+    padding: unset !important;
+}
+
+#app-mount .perksModal-CLcR1c::before {
+    width: var(--settingsmodalwidth) !important;
+    height: var(--settingsmodalheight) !important;
+    margin: auto !important;
+}
+
+#app-mount .perksModalContentWrapper-3RHugb {
+    padding: 10px 0 10px !important;
+}
+
+#app-mount ._5c9fcec194debbe7-root .perksModal-CLcR1c .carousel-3dvee9 {
+    margin-left: calc(-0.5 * (100vw - var(--settingsmodalwidth))) !important;
+}
+
+#app-mount ._5c9fcec194debbe7-root .closeWrapper-9ScmSq,
+#app-mount ._5c9fcec194debbe7-root .closeWrapper-9ScmSq .closeContent-I3JbQJ,
+#app-mount ._5c9fcec194debbe7-root .closeWrapper-9ScmSq .c2b141c0f80863fb-container,
+#app-mount ._5c9fcec194debbe7-root .closeWrapper-9ScmSq .c2b141c0f80863fb-closeButton {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    width: 100% !important;
+    max-width: unset !important;
+    height: 100% !important;
+    max-height: unset !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    opacity: 0 !important;
+    cursor: default !important;
+}
+
+#app-mount ._5c9fcec194debbe7-root .closeWrapper-9ScmSq {
+    position: fixed !important;
+    top: 22px !important;
+    z-index: -1 !important;
+}
+
+.theme-dark ._23e6b439306f125a-sidebarRegion {
+    background: var(--sidebar-colour);
+}
+
+.theme-light ._23e6b439306f125a-sidebarRegion {
+    background: var(--sidebar-colour);
+}
+
+._23e6b439306f125a-contentRegion {
+    zoom: 0.9 !important;
+}
+
+/*
+ What is this one `premiumFeatureBorder__65c15?
+ A comment would have helped
+*/
+
+._65c15724a894a2e0-premiumFeatureBorder {
+    background: linear-gradient(var(--background-primary), var(--background-primary)) padding-box border-box;
+}
+
+/* hide hover underline on selected tab */
+.aa8da23faa27393c-selected:after {
+    background: transparent !important;
+}
+
+.aa8da23faa27393c-side .aa8da23faa27393c-item::after {
+    /* Fix the double icon when hovering */
+    display: none !important;
+}
+
+/* Gets rid of the annoying profile button ref */
+._1fed1dd06c7aabf7-userInfo .a22cb0c66246f5d3-button.a22cb0c66246f5d3-sm {
+    display: none !important;
+}
+
+/*user setting redesign*/
+._1fed1dd06c7aabf7-fieldButton.a22cb0c66246f5d3-button[aria-label="Remove phone number"] {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    font-family: "Roboto";
+    font-size: 12px;
+    transition: 0.2s;
+}
+
+
+html.theme-dark ._1fed1dd06c7aabf7-fieldButton.a22cb0c66246f5d3-button[aria-label="Remove phone number"] {
+    background: rgb(36, 36, 36) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+html.theme-light ._1fed1dd06c7aabf7-fieldButton.a22cb0c66246f5d3-button[aria-label="Remove phone number"] {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+._1fed1dd06c7aabf7-fieldButton.a22cb0c66246f5d3-button[aria-label="Remove phone number"]:hover {
+    box-shadow: 0px 8px 15px rgba(229, 46, 46, 0.4);
+    transition: 0.1s;
+}
+
+html.theme-dark ._1fed1dd06c7aabf7-fieldButton.a22cb0c66246f5d3-button[aria-label="Remove phone number"]:hover {
+    background: rgb(229, 46, 46) !important;
+    color: #000 !important;
+}
+
+html.theme-light ._1fed1dd06c7aabf7-fieldButton.a22cb0c66246f5d3-button[aria-label="Remove phone number"]:hover {
+    background-color: rgb(255, 129, 129) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+._1fed1dd06c7aabf7-badgeList {
+    border-radius: 8px;
+    margin-top: 5px;
+    padding: 2px;
+}
+
+html.theme-dark ._1fed1dd06c7aabf7-badgeList {
+    background-color: #333135;
+}
+
+html.theme-light ._1fed1dd06c7aabf7-badgeList {
+    background-color: #e4e4e4;
+}
+
+._1fed1dd06c7aabf7-fieldList {
+    margin-left: 10px;
+    margin-bottom: 25px;
+    grid-gap: 15px;
+}
+
+._1fed1dd06c7aabf7-field:last-child {
+    margin-right: 0 !important;
+}
+
+div[class="_1fed1dd06c7aabf7-field"] > button[aria-label="Edit username"][class="a22cb0c66246f5d3-button a22cb0c66246f5d3-sm a22cb0c66246f5d3-secondary a22cb0c66246f5d3-hasText"] {
+    width: 90%;
+    position: absolute;
+    bottom: -1px;
+}
+
+._1fed1dd06c7aabf7-field > button {
+    width: 90%;
+}
+
+._1fed1dd06c7aabf7-fieldButtonList > button {
+    width: 100%;
+}
+
+/* This now actually targets the button and makes it takes the whole space */
+._1fed1dd06c7aabf7-fieldButton > button {
+    width: 100% !important;
+}
+
+/*
+    Fixed the blur issues of the `_1fed1dd06c7aabf7-field` items.
+    Issue was not having enough height(was being
+    overridden by a 3rd party AccountDetailsGrid addon).
+    However, the repository got so I forked the addon
+    to our repo for now.
+ */
+._1fed1dd06c7aabf7-field {
+    border-radius: 8px;
+    max-height: none;
+    flex-flow: column;
+    padding: 15px;
+    margin-right: 10px;
+    position: relative;
+    overflow-y: scroll;
+    height: 150px !important;
+}
+
+._1fed1dd06c7aabf7-field ._1fed1dd06c7aabf7-fieldButton {
+    background: transparent !important;
+}
+
+html.theme-dark ._1fed1dd06c7aabf7-field {
+    background-color: #333135;
+}
+
+html.theme-light ._1fed1dd06c7aabf7-field {
+    background-color: #e4e4e4;
+}
+
+html.theme-dark ._1fed1dd06c7aabf7-fieldSpacerBottom {
+    margin-bottom: 0;
+}
+
+._1fed1dd06c7aabf7-field::-webkit-scrollbar {
+    width: 0;
+}
+
+._1fed1dd06c7aabf7-constrainedRow {
+    overflow: visible;
+}
+
+._1fed1dd06c7aabf7-fieldButton.a22cb0c66246f5d3-button[aria-label="Edit phone number"] {
+    top: 30px !important;
+    border-radius: 8px;
+}
+
+._1fed1dd06c7aabf7-fieldButton.a22cb0c66246f5d3-button[aria-label="Edit username"] {
+    top: 50px;
+    border-radius: 8px;
+}
+
+._1fed1dd06c7aabf7-fieldButton._1fed1dd06c7aabf7-removeButton {
+    top: 30px !important;
+    font-size: 12.7px;
+}
+
+._1fed1dd06c7aabf7-fieldButton.a22cb0c66246f5d3-button {
+    top: 30px;
+    border-radius: 8px;
+}
+
+._1fed1dd06c7aabf7-background {
+    background: transparent !important;
+}
+
+.settingsBanner-2E5fAp {
+    border-radius: 8px;
+}
+
+#my-account-tab {
+    transform: scale(0.98) translateX(-17px);
+}
+
+._1fed1dd06c7aabf7-fieldButton.a22cb0c66246f5d3-button[aria-label="Edit phone number"] {
+    top: 50px;
+    border-radius: 8px;
+}
+
+._1fed1dd06c7aabf7-fieldButton.a22cb0c66246f5d3-button[aria-label="Remove phone number"] {
+    top: 30px !important;
+}
+
+._960e4207cea8323e-layer ._1fed1dd06c7aabf7-accountProfileCard ._1fed1dd06c7aabf7-userInfo {
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 34px);
+    margin-left: 17px;
+    padding: 50px 0 9px;
+}
+
+._960e4207cea8323e-layer ._1fed1dd06c7aabf7-accountProfileCard ._1fed1dd06c7aabf7-userInfo .a22cb0c66246f5d3-button {
+    position: absolute;
+    top: 52.5px !important;
+    right: 294.5px;
+    width: 77px;
+    height: 77px;
+    min-width: unset;
+    min-height: unset;
+    padding: 0;
+    border-radius: 50px;
+    background-color: transparent !important;
+    font-size: 0;
+    border: none !important;
+    box-shadow: none;
+}
+
+.a22cb0c66246f5d3-button {
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    font-family: "Roboto";
+    font-size: 12px;
+    transition: 0.2s;
+}
+
+html.theme-dark .a22cb0c66246f5d3-button {
+    background: rgb(36, 36, 36) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+html.theme-light .a22cb0c66246f5d3-button {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+.a22cb0c66246f5d3-button:hover {
+    background: rgb(0, 0, 0) !important;
+    transition: 0.1s;
+}
+
+html.theme-dark .a22cb0c66246f5d3-button:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+html.theme-light .a22cb0c66246f5d3-button:hover {
+    box-shadow: -3px -3px 7px #cfcfcf inset, 3px 3px 7px #949aa1 inset;
+}
+
+._3b2602e558ef3de0-overlay .a22cb0c66246f5d3-button {
+    box-shadow: none !important; /* gets rid of the shadow */
+}
+
+/* fix for the newly added classes for the disable and Delete account button */
+.children__7bffb .a22cb0c66246f5d3-critical-primary, .children__7bffb .a22cb0c66246f5d3-critical-secondary {
+    padding: 25px;
+    height: 45px;
+    font-family: "Roboto" !important;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.children__7bffb .a22cb0c66246f5d3-critical-primary .a22cb0c66246f5d3-buttonChildrenWrapper span, .children__7bffb .a22cb0c66246f5d3-critical-secondary span {
+    /* font-size: 0px !important; */
+    visibility: hidden;
+}
+
+.children__7bffb .a22cb0c66246f5d3-critical-primary::before {
+    content: "Disable";
+    position: absolute;
+    font-size: 14px !important;
+}
+
+.children__7bffb .a22cb0c66246f5d3-critical-secondary::before {
+    content: "Delete";
+    position: absolute;
+    font-size: 14px !important;
+}
+
+
+html.theme-dark .children__7bffb ._6ca73e8c711ac804-buttonContainer .a22cb0c66246f5d3-critical-primary {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(58, 58, 58) !important;
+}
+
+html.theme-dark .children__7bffb ._6ca73e8c711ac804-buttonContainer .a22cb0c66246f5d3-critical-secondary {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(58, 58, 58) !important;
+}
+
+html.theme-dark .children__7bffb ._6ca73e8c711ac804-buttonContainer .a22cb0c66246f5d3-critical-primary:hover {
+    background-color: rgb(229, 46, 46) !important;
+    color: rgb(37, 37, 37) !important;
+    transform: translateY(-7px);
+}
+
+html.theme-dark .children__7bffb ._6ca73e8c711ac804-buttonContainer .a22cb0c66246f5d3-critical-secondary:hover {
+    background-color: rgb(229, 46, 46) !important;
+    color: rgb(37, 37, 37) !important;
+    transform: translateY(-7px);
+}
+
+html.theme-light .children__7bffb ._6ca73e8c711ac804-buttonContainer .a22cb0c66246f5d3-critical-primary:hover {
+    background-color: rgb(255, 129, 129) !important;
+    color: rgb(255, 255, 255) !important;
+    transform: translateY(-7px);
+}
+
+html.theme-light .children__7bffb ._6ca73e8c711ac804-buttonContainer .a22cb0c66246f5d3-critical-secondary:hover {
+    background-color: rgb(255, 129, 129) !important;
+    color: rgb(255, 255, 255) !important;
+    transform: translateY(-7px);
+}
+
+.children__7bffb ._6ca73e8c711ac804-buttonContainer .a22cb0c66246f5d3-critical-primary:hover, .children__7bffb ._6ca73e8c711ac804-buttonContainer .a22cb0c66246f5d3-critical-secondary:hover {
+    box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4);
+}
+
+/* Done */
+
+/* For discord checkpoint stuff */
+#app-mount ._59d0d7075b521375-layerContainer ._5c9fcec194debbe7-root {
+    contain: strict !important;
+    border-radius: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: unset !important
+}
