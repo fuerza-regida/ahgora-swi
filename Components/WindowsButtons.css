@@ -27,7 +27,7 @@
     content: "‏‏‎t s  g e n u i n e l y  f r y i n g  m e"; /* Cambia esto por tu texto */
     font-size: 12px;
     font-weight: 900;
-    font-family: "Poiret one" !important;
+    font-family: "Cascadia Mono" !important;
     background: var(--window-colour);
     backdrop-filter: blur(var(--window-blur));
     border-radius: 5px;
